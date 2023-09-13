@@ -1,0 +1,13 @@
+class Solution{
+public:	
+	int isPalindrome(string S)
+	{
+	    // Your code goes here
+	    string ori=S;
+	    reverse(S.begin(),S.end());
+	    if(ori==S){
+	        return 1;
+	    }
+	    return 0;
+	}
+};
