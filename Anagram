@@ -1,0 +1,16 @@
+  bool isAnagram(string a, string b){
+        bool res=true;
+        if(a.length()==b.length()){
+        sort(a.begin(),a.end());
+        sort(b.begin(),b.end());
+            if(a!=b){
+                res=false;
+            }
+        
+        }
+        else {
+            res=false;
+        }
+        return res;
+        
+    }
